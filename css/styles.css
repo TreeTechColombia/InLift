@@ -25,6 +25,8 @@ body {
 .imgSlide{
 opacity:0.8;
 filter:alpha(opacity=80); /* For IE8 and earlier */
+border-radius: 10px;
+
 }
 .site-footer
 {
@@ -188,6 +190,7 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
     margin-right:0;
     font-weight:600
   }
+
 }
 footer {
     padding: 10px 10px 0 10px;
@@ -197,4 +200,19 @@ footer {
 }
 .itemDropDown:hover{
     background-color: #26272b;
+}
+.active{
+  border-radius: 15px;
+  background-color:  rgba(245, 222, 179, 0.1);
+}
+.contenedorInfoInicio{
+  display: flex;
+}
+@media (max-width:1000px){
+  .contenedorInfoInicio{
+    display: unset;
+  }
+  .cartaInicio{
+    margin-top: 20px;
+  }
 }
