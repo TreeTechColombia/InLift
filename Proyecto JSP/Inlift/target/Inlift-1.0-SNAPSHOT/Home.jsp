@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="index.jsp">Inicio</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="QuienesSomos.jsp">¿Quiénes somos?</a>
